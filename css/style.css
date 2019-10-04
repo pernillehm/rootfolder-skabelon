@@ -1,0 +1,67 @@
+/* genrelle regler*/
+
+
+
+Body {
+    margin: 0;
+    padding; 0;
+    box-sizing: border-box;
+}
+
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+
+
+
+
+/*alle regler herunder vil blive overskrevet*/ 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#yellow {
+    background-color: orange;
+}
+
+#blue {
+    background-color: turquoise;
+}
+
+#green {
+    background-color: purple;
+}
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
